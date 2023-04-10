@@ -1,0 +1,465 @@
+body {
+    margin: 0px 0px;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-image: url("https://www.state.gov/wp-content/uploads/2023/03/Screenshot-2023-03-23-094322.jpg");
+    position: sticky;
+    /* top: 80px; */
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+
+.containerr {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+header .containerr .header-1 div h1 {
+    color: rgb(95, 207, 128);
+}
+
+header .containerr .header-1 div>a:hover {
+    color: rgb(95, 207, 128);
+    transition: 0.5s;
+}
+
+header .containerr .header-1 div+div>.started {
+    width: 105px;
+    height: 30px;
+    background-color: rgb(95, 207, 128);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.learning1 {
+
+    margin: 100px auto 0px;
+
+
+}
+
+.learning1 .learning {
+    margin: 0px auto;
+    width: 90%;
+    color: white;
+
+}
+
+.learning1 p:first {
+    width: 40%;
+    font-size: 90px;
+
+}
+
+.learning1 .learning p:last-child {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.learning1 .learning a {
+    margin: 50px 0px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* MAIN  DIV */
+main {
+    /* border: 20px solid black; */
+    margin: 0px auto 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(249, 250, 249);
+}
+
+
+/* SECTION */
+
+section .container-0 {
+    margin: 0px auto;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    background-color: rgb(249, 250, 249);
+}
+
+section .container-0 .col-0 {
+
+    width: 50%;
+    height: 100%;
+}
+
+section .container-0 .col-0 img {
+    margin: 10px 0px;
+    width: 100%;
+    height: 250px;
+}
+
+section .container-0 i {
+    color: rgb(95, 207, 128);
+}
+
+/* SECTION SCORE */
+section .container-score {
+    margin: 0px auto;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(246, 247, 246);
+    text-align: center;
+}
+
+section .container-score div p {
+    margin: 5px 0px;
+
+}
+
+section .container-score div p:first-child {
+    font-size: 30px;
+    color: rgb(95, 207, 128);
+}
+
+section .container-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: -30px auto;
+    text-align: center;
+
+}
+
+section .container-1 .col-1:first-child {
+    width: 30%;
+    background-color: rgb(95, 207, 128);
+    border-radius: 3px;
+    color: white;
+
+    /* align-items: stretch; */
+
+}
+
+section .container-1 .col-1:last-child {
+    width: 67%;
+
+
+}
+
+/* baxx */
+section .container-1 .col-1 .col-2 {
+    border: 1px solid rgba(34, 139, 34, 0.209);
+    padding: 40px 10px;
+    margin: 15px 10px;
+
+}
+
+section .container-1 .col-1 .col-2 i {
+    font-size: 20px;
+}
+
+/* bax */
+section .container-3 {
+    width: 90%;
+    height: 300px;
+    margin: 10px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container-3 .col-3 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+section .container-3 .col-3:hover {
+    border: 1px solid rgb(95, 207, 128);
+    color: rgb(95, 207, 128);
+    transition: 1s;
+}
+
+section .container-3 .col-3 a {
+    color: black;
+}
+
+section .container-3 .col-3 a:hover {
+    color: rgb(95, 207, 128);
+}
+
+section .container {
+    width: 90%;
+    height: 100%;
+    margin: -30px auto;
+    background-color: rgb(249, 250, 249);
+
+}
+
+section .container div>h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #9ae1af;
+    margin: 4px 10px;
+}
+
+section .container p {
+    font-size: 15px;
+}
+
+section .container .row {
+    display: flex;
+    gap: 100px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section .container .row .col-4 {
+    width: 230px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.row .col-4 .div-img {
+    width: 230px;
+    height: 150px;
+
+}
+
+.row .col-4 .div-img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.row .col-4 .div-pading div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col-4 .div-pading div:first-child p:first-child {
+    height: 20px;
+    color: white;
+    background-color: rgb(92, 210, 92);
+}
+
+.row .col-4 .div-pading div:nth-child(2) {
+    margin: -25px auto 0px;
+}
+
+.row .col-4 .div-pading div:nth-child(2)>a {
+    color: black;
+}
+
+.row .col-4 .div-pading div:nth-child(2)::after {
+    content: "";
+    width: 150px;
+    height: 1px;
+    display: inline-block;
+    background: black;
+    margin: 15px 30px;
+}
+
+.row .col-4 .div-pading div:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col-4 .div-pading div:last-child div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: top center;
+    font-size: 10px;
+
+}
+
+.row .col-4 .div-pading {
+    padding: 1px 10px;
+}
+
+.row .col-4 .div-img2 {
+    width: 230px;
+    height: 230px;
+
+    bottom: 45px;
+}
+
+.row .col-4 .div-img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.row .col-4 .div-pading2 {
+    padding: 1px 10px;
+    text-align: center;
+}
+
+.row .col-4 .div-pading2 div:first-child p {
+    margin: -13px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+section .container-4 {
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .container-4 .col-5 {
+    font-size: 14px;
+    width: 21%;
+}
+
+section .container-4 .col-5:last-child {
+    width: 30%;
+}
+
+section .container-4 .col-5 a {
+    color: black;
+}
+
+section .container-4 .col-5 i {
+    color: #9ae1af;
+    font-size: 12px;
+}
+
+section .container-4 .col-5 li {
+    margin: 10px 0px;
+}
+
+section .container-4 .col-5 .btn {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #9ae1af;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+section .container-4 .col-5 .btn input:first-child {
+
+    width: 60%;
+    height: 100%px;
+    border: none;
+
+}
+
+section .container-4 .col-5 .btn input:last-child {
+    color: white;
+    background-color: rgb(95, 207, 128);
+    border: none;
+    border-radius: 17px;
+    width: 40%;
+    height: 100%;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 100px;
+    margin: -10px auto 0px;
+    background-color: rgb(238, 240, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .div-footer {
+    width: 90%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .div-footer div {
+    color: rgb(95, 207, 128);
+    font-size: 30px;
+}
+
+footer .div-footer ul li a {
+    color: rgb(95, 207, 128);
+}
+
+footer .fixedd {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(95, 207, 128);
+    border: 1px solidr rgb(95, 207, 128);
+    border-radius: 50%;
+    /* display: inline-block;
+align-items: center;
+justify-content: center; */
+
+}
+
+footer .fixedd i {
+    position: fixed;
+    right: 9px;
+    bottom: 32px;
+    color: white;
+    font-size: 30px;
+
+    /* background-position: top center;
+    background-size: cover;
+    background-attachment: fixed; */
+
+}
+
+section {
+    width: 100%;
+    /* height: 100%; */
+    margin: 30px auto 0px;
+    background-color: rgb(249, 250, 249);
+}
+
+a {
+    text-decoration: none;
+}
